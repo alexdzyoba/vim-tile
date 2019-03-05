@@ -48,14 +48,13 @@ let colors_name = "tile"
 :hi ErrorMsg cterm=bold guifg=White guibg=DarkRed cterm=bold ctermfg=7 ctermbg=1
 :hi VisualNOS cterm=bold,underline
 :hi WildMenu ctermfg=0 ctermbg=3
-:hi DiffAdd ctermbg=4
-:hi DiffChange ctermbg=5
-:hi DiffDelete cterm=bold ctermfg=4 ctermbg=6
-:hi DiffText cterm=bold ctermbg=1
+:hi DiffAdd ctermbg=4 guibg=green guifg=white
+:hi DiffChange ctermbg=5 guibg=darkmagenta guifg=white
+:hi DiffDelete ctermfg=4 ctermbg=6 guibg=darkred guifg=white
+:hi DiffText ctermbg=1
 :hi Underlined cterm=underline ctermfg=5
 :hi Error guifg=White guibg=Red cterm=bold ctermfg=7 ctermbg=1
 :hi SpellErrors guifg=White guibg=Red cterm=bold ctermfg=7 ctermbg=1
 :hi Pmenu guifg=White guibg=MidnightBlue
-":hi PmenuSel"       .s:fmt_none   .s:fg_base01 .s:bg_base2   .s:fmt_revbb
-":hi PmenuSbar"      .s:fmt_none   .s:fg_base2  .s:bg_base0   .s:fmt_revbb
-":hi PmenuThumb"     .s:fmt_none   .s:fg_base0  .s:bg_base03  .s:fmt_revbb
+
+
